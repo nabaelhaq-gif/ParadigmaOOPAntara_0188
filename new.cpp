@@ -35,4 +35,10 @@ int main(){
 
     elektronik.inputData();
     elektronik.tampilSpek();
+
+    cout << endl;
+    cout << endl;
+
+    nonElektronik.inputData();
+    nonElektronik.tampilSpek();
 }
