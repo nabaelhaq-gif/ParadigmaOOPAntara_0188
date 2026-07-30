@@ -3,10 +3,20 @@ using namespace std;
 
 class Barang{
     public :
-    sring nama;
+    string nama;
     int jumlah;
     string kategori;
     string tahunProduk;
 
-    void inputData()
+    void inputData(){
+        cout << "==========Input Data==========" << endl;
+        cout << "Masukkan Nama Barang : ";
+        cin >> nama;
+        cout << "Masukkan Jumlah Barang : ";
+        cin >> jumlah;
+        cout << "Masukkan Kategori Barang : ";
+        cin >> kategori;
+        cout << "Masukkan Tanggal Produksi Barang : ";
+        cin >> tahunProduk;
+    }
 }
