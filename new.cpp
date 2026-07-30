@@ -32,4 +32,7 @@ class Barang{
 int main(){
     Barang elektronik;
     Barang nonElektronik;
+
+    elektronik.inputData();
+    elektronik.tampilSpek();
 }
