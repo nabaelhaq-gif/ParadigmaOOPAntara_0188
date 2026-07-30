@@ -7,4 +7,6 @@ class Barang{
     int jumlah;
     string kategori;
     string tahunProduk;
+
+    void inputData()
 }
