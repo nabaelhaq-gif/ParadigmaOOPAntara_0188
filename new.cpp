@@ -25,5 +25,11 @@ class Barang{
         cout << "Jumlah Barang : " << jumlah << endl;
         cout << "Kategori Barang : " << kategori << endl;
         cout << "Tahun Produksi Barang : " << tahunProduk << endl;
+        cout << "=====" << endl;
     }
+};
+
+int main(){
+    Barang elektronik;
+    Barang nonElektronik;
 }
